@@ -15,7 +15,7 @@ public class Cube : MonoBehaviour
         
         Material material = Renderer.material;
         
-        material.color = new Color(0.5f, 1.0f, 0.3f, 0.4f);
+        material.color = Color.magenta;
     }
     
     void Update()
